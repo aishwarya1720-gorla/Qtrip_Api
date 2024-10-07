@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+   
+  .Rform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    margin: 50px auto; 
+    padding: 30px;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #ffffff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  #rform {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    color: #333; 
+    text-align: center; 
+  }
+  
+  .Rform label {
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #555; 
+    display: block; 
+    width: 100%; 
+    text-align: left; 
+  }
+  
+  
+  .Rform input {
+    width: 100%; 
+    height: 50px;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease; 
+  }
+  
+  
+  .Rform input:focus {
+    border-color: #4CAF50;
+    outline: none; 
+  }
+  
+  .Rform button {
+    width: 100%; 
+    padding: 12px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .Rform button:hover {
+    background-color: #45a049; 
+  }
+  
+  .Rform a {
+    text-decoration: none; 
+    width: 100%;
+  }
+  
+  
+  
+
+  .login {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 300px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  #lform {
+    font-size: 24px;
+    font-weight: bold; 
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  
+  .login label {
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #555; 
+    display: block; 
+    width: 100%; 
+    text-align: left; 
+  }
+  
+  .login input {
+    width: 100%; 
+    padding: 10px;
+    height: 50px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease; 
+  }
+  
+  
+  .login input:focus {
+    border-color: #4CAF50; 
+    outline: none; 
+  }
+  .login button {
+    width: 100%; 
+    padding: 12px;
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  
+.login button:hover {
+    background-color:#45a049;
+}

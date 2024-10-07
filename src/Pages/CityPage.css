@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+ 
+  .adventure-card {
+    background-color: white;
+    border-radius: 8px ;
+    border: 1px solid gray; 
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+   
+    padding: 15px;
+  }
+   
+  p {
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .adventure-card p:nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .adventure-card p:nth-child(3), .adventure-card p:nth-child(4) {
+    color: black;
+    font-size:large ;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .adventure-grid {
+      grid-template-columns: 1fr;
+      padding: 10px;
+    }
+}
+  #acat{
+    background-color: orange;
+    
+}
+
+#ch1,#cp{
+  color: black;
+}
+#cs{
+  height: 30px;
+  width: 200px;
+}
+#opt{
+  height: 20px;
+
+}
